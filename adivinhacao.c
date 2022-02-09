@@ -9,5 +9,11 @@ int main()
 
   int numerosecreto = 42;
 
-  // printf("O número %d é o secreto. Não conta pra ninguém!", numerosecreto);
+  int chute;
+
+  printf("Qual é o seu chute? ");
+  scanf("%d", &chute);
+  printf("Se chute foi %d\n", chute);
+
+  printf("%d %d", numerosecreto, chute);
 }
